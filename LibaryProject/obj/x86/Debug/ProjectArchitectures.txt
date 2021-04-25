@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\LibaryProject\BLL\BLL.csproj;x86
+C:\Users\user\source\repos\LibaryProject\CommonFiles\CommonFiles.csproj;x86
+C:\Users\user\source\repos\LibaryProject\CommonFiles\CommonFiles.csproj;x86
+C:\Users\user\source\repos\LibaryProject\DAL\DAL.csproj;x86
+C:\Users\user\source\repos\LibaryProject\LibaryProject\UnitTest.csproj;x86

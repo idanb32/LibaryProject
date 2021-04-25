@@ -1,0 +1,40 @@
+﻿<UserControl
+    x:Class="VisualRep.MyControls.ViewAbstractItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VisualRep.MyControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400"  HorizontalAlignment="Stretch"
+    VerticalAlignment="Stretch">
+
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:ConnectionId='2' Grid.Column="0" x:Name="type" />
+        <TextBlock x:ConnectionId='3' Grid.Column="1" x:Name="printDate" />
+        <TextBlock x:ConnectionId='4' Grid.Column="2" x:Name="name"/>
+        <TextBlock x:ConnectionId='5' Grid.Column="3" x:Name="countryWritter"/>
+        <TextBlock x:ConnectionId='6' Grid.Column="4" x:Name="Edition" />
+        <TextBlock x:ConnectionId='7' Grid.Column="5" x:Name="Genre"/>
+        <TextBlock x:ConnectionId='8' Grid.Column="6" x:Name="Quanity"/>
+        <TextBlock x:ConnectionId='9' Grid.Column="7" x:Name="Description"/>
+        <TextBlock x:ConnectionId='10' Grid.Column="8" x:Name="ISBN"/>
+        <TextBlock x:ConnectionId='11' Grid.Column="9" x:Name="Price" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='12' Grid.Column="10" x:Name="Discount"/>
+    </Grid>
+</UserControl>
+
